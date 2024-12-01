@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+
+  .cardContent {
+    padding: 15px;
+  }
+
+  .cardDescription {
+    margin: 10px 0;
+    color: #555;
+  }
+
+ 
