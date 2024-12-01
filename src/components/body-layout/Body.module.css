@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* debug */
+  background-color: pink;
+}
+
+.cardButton {
+  display: inline-flex;
+}
+
+.width {
+  width: 100%;
+}
