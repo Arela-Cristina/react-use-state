@@ -1,10 +1,10 @@
-import style from "./Header"
+import style from "./Header.module.css"
 
 export default function Header() {
 
     return (
       <>
-     <h1>Header</h1>
+     <h1 className={style.title}>Linguaggi di Programmazione</h1>
       </>
     )
   }

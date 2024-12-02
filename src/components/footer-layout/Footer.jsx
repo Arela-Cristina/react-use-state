@@ -1,9 +1,9 @@
-import style from "./Footer";
+import style from "./Footer.module.css";
 
 export default function Footer() {
   return (
     <>
-      <h1>Footer</h1>
+      <div className={style.text}>“Gli smanettoni erediteranno la terra.”</div>
     </>
   );
 }

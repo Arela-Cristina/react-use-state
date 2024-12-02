@@ -2,12 +2,13 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  /* debug */
-  background-color: pink;
 }
 
 .cardButton {
   display: inline-flex;
+  gap: 1rem;
+  height: 4rem;
+  align-items: center;
 }
 
 .width {
