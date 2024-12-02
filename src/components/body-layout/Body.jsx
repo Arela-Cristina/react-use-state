@@ -18,7 +18,11 @@ export default function Body() {
     <>
       <section className={style.card}>
         <div className={style.cardButton}>
-          <Button titles={languages} onClick={handleButtonClick} />
+          <Button 
+          titles={languages} 
+          selectedDescription={selectedDescription}
+          onClick={handleButtonClick} 
+          />
         </div>
         <div className={style.width}>
           <Card description={selectedDescription} />
